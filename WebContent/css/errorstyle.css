@@ -1,0 +1,37 @@
+.main {
+  margin-top: 5%;
+  text-align: center;
+}
+.main img {
+  width: 40%;
+  max-width: 420px;
+}
+.main h2 {
+  color: #3d4145;
+  font-size: 32px;
+  font-weight: 700;
+}
+.main h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.main .error {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0vw;
+  color: rgba(0,0,0,.02);
+  font-size: 25vw;
+  text-align: center;
+  font-weight: 900;
+  font-family: sans-serif;
+  pointer-events: none;
+}
+
+@media (max-width: 500px) {
+  .main .error {
+    top: 50vw;
+  }
+}
